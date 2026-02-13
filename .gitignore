@@ -4,3 +4,16 @@ dist
 server/public
 vite.config.ts.*
 *.tar.gz
+.vercel
+
+# Environment files (keep .env.example for reference)
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Strapi
+my-strapi-blog/.tmp
+my-strapi-blog/.cache
+my-strapi-blog/build
+my-strapi-blog/.env
