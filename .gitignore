@@ -17,3 +17,21 @@ my-strapi-blog/.tmp
 my-strapi-blog/.cache
 my-strapi-blog/build
 my-strapi-blog/.env
+
+# Security - sensitive files
+*.key
+*.pem
+*.p12
+*.pfx
+*.cert
+*.crt
+*.der
+*.cer
+secrets.json
+credentials.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
